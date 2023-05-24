@@ -1,0 +1,190 @@
+body {			
+    background-color: #efefef; /* 设置网页背景颜色为浅灰色 */			
+    font-family: Arial, sans-serif; /* 设置字体为Arial或类似字体 */			
+    color: #333; /* 设置网页文字颜色为深灰色 */		}		
+h1 {			
+    font-size: 2em; /* 设置标题字体大小为2em */			
+    text-align: center; /* 居中对齐 */			
+    margin-top: 1em; /* 上边距为1em */
+    text-decoration: solid;		}		
+p {			
+    font-size: 1.2em; /* 设置段落字体大小为1.2em */			
+    line-height: 1.5; /* 设置行高为1.5倍字体大小 */			
+    margin: 1em 0; /* 上下边距为1em，左右边距为0 */		}	
+p1{
+    font-size: 1em;
+    line-height: 0.5;
+    margin:1em 1em 2em 2em;
+}	
+a {		
+    color: #333; /* 设置链接文字颜色为深灰色 */			
+    text-decoration: none; /* 取消下划线 */		}		
+a:hover {		
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */		}	
+.header img{ max-width: 300px;  /* 设置最大宽度与高度 */
+        max-height: 200px;       /* 下面类似操作不再赘述，只对关键处添加注释 */
+        padding:10px;
+        background: no-repeat; }
+html {
+        margin: 0px 0px 0px 0px; padding:0; font-family:"Microsoft YaHei",微软雅黑; color:#666666; font-size:14px;
+    }    
+    body{ margin:0; padding:0; }
+    a{text-decoration:none;}
+   
+    .nev{ width:1200px; /* 设置导航区背景颜色与大小宽度 */
+        height:40px; 
+        margin-top: 120px auto; 
+        background-color:#522917;
+        margin-left: 139px;
+     }
+    .nev ul li{ float:left;  
+        line-height:40px; 
+        margin-left:180px;  
+        list-style:none;  } /* 简写属性、无标记 */
+    .nev ul li a{text-decoration:none; 
+        color:#FFF; }
+    .nev ul li a:hover{color:#CCC;} 
+    .banner{width:1200px; height:470px; margin:0 auto;}
+    .banner img{ width:1200px; height:470px;} /* 设置teance区的大小颜色属性，边框的属性等 */
+    .teance{width:1200px; height:860px; margin:0 auto; background-color:#802916;}
+    .teance .nie{ width:1100px; height:373px; margin:0 auto; padding:20px; }
+    .teance .nie ul li{ float:left; width:335px; height:355px; margin-left:15px; list-style:none; }
+    .teance .nie ul li img{width:180px; height:300px; margin-left:78px; }
+    .teance .nie ul li p{ text-align:center; color:#FFF;}
+    .teance .texe .left{ width:550px; height:422px;  border-right:10px #960 solid; float:left}
+    .teance .texe .left img{ width:550px; height:350px;}
+    .teance .texe{ width:1100px; height:420px; margin:0 auto; border:10px #960 solid; }
+    .teance .texe h3{padding:5px; color:#CCC;}
+    .teance .texe p{ padding:3px; color:#CCC; font-size:6px;}
+    .teance .texe .right{ width:510px; height:400px; float:right;}
+    .teance .texe .right img{width:500px; height:350px;}
+    .teance .texe  .pian{ width:500px; height:280px; margin-right:12px; }
+    .bottom{ width:1200px; height:20px; background-color:#522917; margin:0 auto;}/* 设置下方页脚区属性 */
+    .bottom p{ text-align:center; line-height:20px; font-size:12px; color:#999;}
+     
+    #left_top {
+        width: 30%; /*left_top区的宽为main区的宽的30%*/
+        float: left; /*设置浮动*/
+        height: 50%;
+        border: 5px solid rgb(148, 7, 218);
+        border-bottom:10px solid rgb(239, 247, 17);
+        text-align: center;
+    }
+    
+    
+    #right_top {
+        width: 68%;
+        float: right ;
+        height: 50%;
+        border: 5px solid rgb(148, 7, 218);
+        border-bottom:10px solid rgb(239, 247, 17);
+        text-align: center;
+    }
+    #left_middle1 {
+        width: 30%; /*left_top区的宽为main区的宽的30%*/
+        float: left; /*设置浮动*/
+        height: 50%;
+        border: 5px solid rgb(13, 95, 202);
+        border-bottom:10px solid green;
+        text-align: center;
+    }
+    
+    
+    #right_middle1 {
+        width: 68%;
+        float: right ;
+        height: 50%;
+        border: 5px solid rgb(13, 95, 202);
+        border-bottom:10px solid green;
+        text-align: center;
+    }
+    #left_middle2 {
+        width: 40%;
+        float: left;
+        height: 50%;
+        border: 5px solid rgb(239, 5, 5);
+        border-bottom:10px solid rgb(248, 160, 8);
+        text-align: center;
+    }
+    #right_middle2 {
+        width: 58%;
+        float: right;
+        height: 50%;
+        border: 5px solid rgb(239, 5, 5);
+        border-bottom:10px solid rgb(248, 160, 8);
+        text-align: center;
+    }
+    
+    #left_bottom {
+        width: 40%;
+        float: left;
+        height: 50%;
+        border: 5px solid rgb(239, 5, 5);
+        border-bottom:10px solid rgb(248, 160, 8);
+        text-align: center;
+    }
+    #right_bottom {
+        width: 58%;
+        float: right;
+        height: 50%;
+        border: 5px solid rgb(239, 5, 5);
+        border-bottom:10px solid rgb(248, 160, 8);
+        text-align: center;
+    }
+    .zhuyepic{
+        max-width: 100px;
+        max-height: 200px;
+    }
+    .bg1{
+        background-image: url("./images/zhuyepic.jpg"); 
+        min-height: 100%;
+        background-size : cover; 
+        background-attachment: fixed;
+        background-repeat:no-repeat; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: darkblue;
+    }
+    .time{
+        font-style: italic;
+    }
+    .position{
+        font-weight: bold;
+    }
+    h1{
+        color: greenyellow;
+        text-align: center;
+    }
+    
+caption {
+    font-size:large ;
+    padding-top:8px;
+  }
+  
+  table{
+    width: 500px;
+    /* 设置表格居中 */
+    margin: 0 auto;
+    /*设置单线边框 以下两种方法必须设置在table样式里 */
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:collapse;
+  }
+  tr,td,th{
+     /*设置边框线  border：边框线大小 边框线样式 边框线的颜色 */
+    border: 1px solid red;
+  }
+  td{
+    height: 80px;
+  /* 设置文本水平居中效果 */
+    text-align: center;
+  /* 设置文本垂直居中效果 */
+    vertical-align:middle;
+  }
+  /*设置隔行变色 tr:nth-child(even)*/
+  tr:nth-child(2n+1){
+    background-color: blueviolet;
+  }
+  /* 鼠标移入到tr以后，改变颜色*/
+  tr:hover{
+    background-color: red;
+  }

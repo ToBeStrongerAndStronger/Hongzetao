@@ -1,0 +1,29 @@
+body {
+	font-family:Verdana,Geneva,Arial,sans-serif;
+	font-size:small;
+	/* 可以继承 */
+
+}
+h1,h2 {
+	color:#cc6600;
+	/* color同时控制文本和边框颜色 */
+	border-bottom:thin dotted #888888;
+    text-align: center; /* 居中对齐 */	
+}
+h1 {
+	font-size:220%;
+	/* 相对值，相对父元素，body */
+}
+h2 {
+	font-size:130%;
+	font-weight:normal;
+	/* 默认加粗，若须去除加粗效果，用normal */
+}
+h3{
+    text-align: center; /* 居中对齐 */ 
+}
+img{
+    max-width: 300px; 
+    padding:10px;
+    background: no-repeat;
+}
